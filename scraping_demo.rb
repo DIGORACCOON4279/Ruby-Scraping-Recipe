@@ -25,7 +25,7 @@
 require "open-uri"
 require "nokogiri"
 
-recipe = "pork"
+recipe = "chicken"
 url = "https://www.allrecipes.com/search?q=#{recipe}"
 
 html_file = URI.open(url).read
